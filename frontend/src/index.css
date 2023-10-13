@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial;
+}
+
+.container {
+    width: 350px;
+    height: 600px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+    height: 10%;
+}
+
+.content {
+    height: 80%;
+    /* overflow: auto; */
+}
+
+.header-container {
+    height: 10%;
+}
+
+.line {
+    border: none;
+    border-bottom: .25px solid rgb(215, 215, 215);
+}
+

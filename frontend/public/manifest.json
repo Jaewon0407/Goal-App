@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Google Chrome Goal Extension",
+  "description": "Google Chrome Extension that allow users to create and manage goals",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open"
+  },
+  "permissions": [
+    "scripting"
+  ]
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(79, 79, 79);
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-info, .profile-info {
+    margin-top: 25px;
+}
+
+.profile-name-title, .profile-email-title {
+    font-weight: bold;
+    font-size: 1.05rem;
+    color: rgb(18, 72, 107);
+}
+
+.profile-name {
+    margin-bottom: 10px;
+}
+
+.profile-email {
+    margin-bottom: 20px;
+}
+
+.profile-name, .profile-email {
+    margin-top: 2.5px;
+}
+
+.email, .password {
+    margin-bottom: 15px;
+}
+
+.email .email-title, .password .password-title {
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+input {
+    margin-top: 5px;
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 0.25px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 4px;
+}
+
+.login-btn, .logout-btn {
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 250px;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 5px;
+    background-color: rgb(113, 201, 206);
+    box-shadow: 0px 1.25px 3px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:active {
+    box-shadow: none;
+}
+
+.register-msg {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.05rem;
+}
+
+.register-link {
+    text-decoration: underline;
+}
+
+.line-login {
+    border: none;
+    border-bottom: .25px solid rgb(215, 215, 215);
+}

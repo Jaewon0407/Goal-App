@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(4, 54, 74);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    padding: 10px 20px;
+    padding-top: 15px;
+}
+
+.user {
+    margin-left: 20px;
+}
+
+.settings {
+    margin-right: 20px;
+}
