@@ -7,10 +7,19 @@
     font-family: 'Roboto', Arial;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     width: 350px;
     height: 600px;
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.15);
+    transform: scale(2);
 }
 
 .title {

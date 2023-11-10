@@ -7,9 +7,8 @@ import Register from './pages/Register';
 import HomeTitle from './title/HomeTitle';
 import LoginTitle from './title/LoginTitle';
 import RegisterTitle from './title/RegisterTitle';
+import SettingsTitle from './title/SettingsTitle';
 import Header from './components/Header'
-
-
 
 function App() {
   return (
@@ -20,7 +19,8 @@ function App() {
             <Routes>
               <Route className='home-title' path='/' element={<HomeTitle />} />
               <Route className='login-title' path='/login' element={<LoginTitle />} />
-              <Route className='register-title' path='register' element={<RegisterTitle />} />
+              <Route className='register-title' path='/register' element={<RegisterTitle />} />
+              <Route className='settings-title' path='/settings' element={<SettingsTitle />} />
             </Routes>
           </div>
           <hr className='line'></hr>

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(79, 79, 79);
+}
+
+.goal-item {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.goal-item .new-goal {
+    margin-top: 2.5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.15rem;
+    color: black;
+}
+
+.close {
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 250px;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 5px;
+    background-color: rgb(18, 72, 107);
+    box-shadow: 0px 1.25px 3px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
